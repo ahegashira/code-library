@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Code Library</title>       
+    </head>
+    <body>
+        <div>
+            <h1>Code Library</h1>
+        </div>
+        <nav>
+            <div>
+                <div>
+                    <a href="{% url 'index' %}">Home</a>
+                </div>
+                <ul>
+                    <li>Uno</li> 
+                </ul>
+            </div>
+        </nav>
+        <div>
+        {% block content %}
+        {% endblock content %}
+        </div>
+    </body>
+</html>
